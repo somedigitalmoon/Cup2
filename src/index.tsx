@@ -88,11 +88,17 @@ render(
   () => (
     <Router root={Layout}>
       <Route path="/" component={Home} />
+      <Route path="/:stuff/" component={Home} />
       <Route path="/route/:route" component={ProxyViewer} />
+      <Route path="/:stuff/route/:route" component={ProxyViewer} />
       <Route path="/shortcuts" component={Shortcuts} />
+      <Route path="/:stuff/shortcuts" component={Shortcuts} />
       <Route path="/bookmarks" component={Bookmarks} />
+      <Route path="/:stuff/bookmarks" component={Bookmarks} />
       <Route path="/faq" component={FAQ} />
+      <Route path="/:stuff/faq" component={FAQ} />
       <Route path="/settings" component={Settings} />
+      <Route path="/:stuff/settings" component={Settings} />
     </Router>
   ),
   root
