@@ -6,7 +6,6 @@ import { analytics } from './lib/analytics'
 
 import Layout from './layout'
 import FAQ from './routes/faq'
-import Games from './routes/games'
 import Home from './routes/home'
 import ProxyViewer from './routes/route'
 import Settings from './routes/settings'
@@ -90,7 +89,6 @@ render(
     <Router root={Layout}>
       <Route path="/" component={Home} />
       <Route path="/route/:route" component={ProxyViewer} />
-      <Route path="/games" component={Games} />
       <Route path="/shortcuts" component={Shortcuts} />
       <Route path="/bookmarks" component={Bookmarks} />
       <Route path="/faq" component={FAQ} />

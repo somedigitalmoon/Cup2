@@ -1,6 +1,6 @@
 <div align="center">
   <img src="public/icon.png" height=75 width=75 />
-  <h1>Mocha</h1>
+  <h1>Cup²</h1>
 </div>
 The simplicity and power you expect from a web proxy.
 
@@ -34,4 +34,4 @@ npm run start
 ```
 
 ## Support us
-If you like Mocha and would like to support the development, you can donate to me [here](https://buymeacoffee.com/proudparrot2). It helps with server costs, domains, and otherwise financially supports me.
+If you like Cup² and would like to support the development, you can donate to me [here](https://buymeacoffee.com/proudparrot2). It helps with server costs, domains, and otherwise financially supports me.

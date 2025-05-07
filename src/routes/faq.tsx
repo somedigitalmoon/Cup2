@@ -6,9 +6,9 @@ export default function FAQ() {
       <h1 class="-mt-2 pb-2 text-4xl font-bold">FAQ</h1>
       <div class="collapse collapse-arrow bg-base-200">
         <input type="checkbox" name="faq" />
-        <div class="collapse-title text-xl font-medium">What is Mocha?</div>
+        <div class="collapse-title text-xl font-medium">What is Cup²?</div>
         <div class="collapse-content">
-          <p>Mocha is a web proxy used to unblock websites at work or school. Your traffic is encrypted so no one can read it, not even us. </p>
+          <p>Cup² is a web proxy used to unblock websites at work or school. Your traffic is not end to end encrypted so yes we can read it. </p>
         </div>
       </div>
 
@@ -35,6 +35,14 @@ export default function FAQ() {
         <div class="collapse-title text-xl font-medium">Why is the proxy slow?</div>
         <div class="collapse-content">
           <p>The proxy is hosted on a shared server that serves all users. If there is a significant amount of users at one time, it can cause network congestion and slow down requests. </p>
+        </div>
+      </div>
+
+      <div class="collapse collapse-arrow bg-base-200">
+        <input type="checkbox" name="faq" />
+        <div class="collapse-title text-xl font-medium">How do I support this proxy</div>
+        <div class="collapse-content">
+          <p>Don't send me money, donate to @proudparrot2, the original developer of Mocha.</p>
         </div>
       </div>
     </div>
