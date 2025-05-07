@@ -45,7 +45,7 @@ export default function Home() {
         <div class="flex gap-4">
           <div class="flex items-center gap-2">
             <GitCommitHorizontal />
-            <A class="link-hover link" target="_blank" href={`https://github.com/somedigitalmoon/Cup2/${__GIT_COMMIT__}/`}>
+            <A class="link-hover link" target="_blank" href={`https://github.com/somedigitalmoon/Cup2/commit/${__GIT_COMMIT__}/`}>
               {__GIT_COMMIT__.slice(0, 7)}
             </A>
           </div>
