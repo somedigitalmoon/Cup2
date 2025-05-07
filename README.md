@@ -34,4 +34,4 @@ npm run start
 ```
 
 ## Support us
-If you like Cup² and would like to support the development, you can donate to me [here](https://buymeacoffee.com/proudparrot2). It helps with server costs, domains, and otherwise financially supports me.
+If you like Cup² and would like to support the development, don't donate to me, donate to @proudparrot2 [here](https://buymeacoffee.com/proudparrot2). I didn't make this lmao.
