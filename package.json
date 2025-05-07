@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build-rel": "vite build --base=./",
     "preview": "vite preview",
     "start": "tsx server.ts"
   },

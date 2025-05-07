@@ -1,5 +1,5 @@
 import { A, useLocation } from '@solidjs/router'
-import { Bookmark, Joystick, Layers, Settings } from 'lucide-solid'
+import { Bookmark, Layers, Settings } from 'lucide-solid'
 import { Show } from 'solid-js'
 export default function Navbar() {
   const location = useLocation()
